@@ -2,7 +2,7 @@
 #Oracle Workspace Manager POC with Spring boot and flyway.
 
 ### More information
-http://briandupreez.net
+http://www.briandupreez.net/2016/09/oracle-workspace-manager-basic-poc-with_11.html
 
 
 ###Starting Oracle in Docker
