@@ -1,0 +1,18 @@
+server:
+    port: 9119
+logging:
+    level:
+        org.springframework: INFO
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: validate
+    datasource:
+        url: jdbc:oracle:thin:@//localhost:1521/xe.oracle.docker
+        username: system
+        password: oracle
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+
+flyway:
+    baseline-version: 1
+    baseline-on-migrate: true
